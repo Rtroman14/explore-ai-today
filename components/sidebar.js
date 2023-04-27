@@ -11,7 +11,7 @@ export default function Sidebar(props) {
         <div className="mt-5">
             {/* <Searchbar /> */}
 
-            <div>
+            <div className="hidden md:block">
                 <h3 className="text-2xl font-bold dark:text-white">
                     Subscribe To Newsletter
                 </h3>
@@ -20,6 +20,7 @@ export default function Sidebar(props) {
                     about artificial intelligence! Sign up today to
                     stay up-to-date and ahead of the curve.
                 </p>
+
                 <Newsletter />
             </div>
 
