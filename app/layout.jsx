@@ -1,5 +1,6 @@
 import "@/styles/tailwind.css";
 import { Providers } from "./providers";
+import { Analytics } from "@vercel/analytics/react";
 import { cx } from "@/utils/all";
 import { Montserrat, Oxanium } from "next/font/google";
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
             className={cx(montserrat.variable, oxanium.variable)}>
             <body className="bg-black font-body text-gray-400 antialiased">
                 <Providers>{children}</Providers>
+                <Analytics />
             </body>
         </html>
     );
