@@ -1,5 +1,3 @@
-"use client";
-
 import { notFound } from "next/navigation";
 import { PortableText } from "@/lib/sanity/plugins/portabletext";
 import { urlForImage } from "@/lib/sanity/image";
@@ -9,7 +7,6 @@ import Link from "next/link";
 import AuthorCard from "@/components/blog/authorCard";
 import Sidebar from "@/components/sidebar";
 import Newsletter from "@/components/Newsletter/Newsletter_Section";
-import { motion } from "framer-motion";
 
 export default function Post(props) {
     const { loading, post, categories } = props;
@@ -124,15 +121,7 @@ export default function Post(props) {
                         </Link>
                     </div>
                     {post.author && (
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            viewport={{ once: true }}
-                            transition={{
-                                duration: 0.5
-                            }}>
-                            <AuthorCard author={post.author} />
-                        </motion.div>
+                        <AuthorCard author={post.author} />
                     )}
                 </article>
                 <aside className="sticky top-0 w-full self-start md:w-96">
