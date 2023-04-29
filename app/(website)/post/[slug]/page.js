@@ -18,4 +18,4 @@ export default async function PostDefault({ params }) {
 }
 
 // export const revalidate = 60;
-export const revalidate = 3600;
+// export const revalidate = 3600;

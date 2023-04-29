@@ -44,3 +44,6 @@ next-env.d.ts
 /lib/sanity/data
 
 TODOs.md
+
+/public/robots.txt
+/public/sitemap.xml

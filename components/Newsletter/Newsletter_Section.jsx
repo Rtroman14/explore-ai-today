@@ -62,8 +62,8 @@ export default function NewsletterSection() {
                                 Sign up for our newsletter
                             </h2>
                             <p className="mx-auto mb-8 max-w-2xl font-light text-gray-500 dark:text-gray-400 sm:text-xl md:mb-12">
-                                Don't miss out on the best tools and
-                                latest news about artificial
+                                Don&apos;t miss out on the best tools
+                                and latest news about artificial
                                 intelligence! Sign up today to stay
                                 up-to-date and ahead of the curve.
                             </p>
@@ -137,11 +137,11 @@ const ThankYou = () => {
             </h2>
             <p className="mx-auto mb-8 max-w-2xl font-light text-gray-500 dark:text-gray-400 sm:text-xl md:mb-12">
                 Your email has been successfully added to our list,
-                and we're thrilled to have you join our community of
-                AI enthusiasts. You can look forward to receiving the
-                latest news, advancements, and tools in AI, delivered
-                straight to your inbox. Please check your email for a
-                confirmation message.
+                and we&apos;re thrilled to have you join our community
+                of AI enthusiasts. You can look forward to receiving
+                the latest news, advancements, and tools in AI,
+                delivered straight to your inbox. Please check your
+                email for a confirmation message.
             </p>
         </div>
     );

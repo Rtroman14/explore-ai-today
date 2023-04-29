@@ -16,9 +16,9 @@ export default function Sidebar(props) {
                     Subscribe To Newsletter
                 </h3>
                 <p>
-                    Don't miss out on the best tools and latest news
-                    about artificial intelligence! Sign up today to
-                    stay up-to-date and ahead of the curve.
+                    Don&apos;t miss out on the best tools and latest
+                    news about artificial intelligence! Sign up today
+                    to stay up-to-date and ahead of the curve.
                 </p>
 
                 <Newsletter />

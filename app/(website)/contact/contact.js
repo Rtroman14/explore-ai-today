@@ -12,7 +12,7 @@ export default function Contact({ settings }) {
                 Contact
             </h1>
             <div className="text-center">
-                <p className="text-lg">Let's chat!</p>
+                <p className="text-lg">Let&apos;s chat!</p>
             </div>
 
             <div className="mt-10 grid md:grid-cols-2">
@@ -21,8 +21,9 @@ export default function Contact({ settings }) {
                         Contact Explore AI Today
                     </h2>
                     <p className="mt-5 max-w-sm">
-                        Have something to say? Let's connect!. Fill
-                        out the form or send an email and we'll chat.
+                        Have something to say? Let&apos;s connect!.
+                        Fill out the form or send an email and
+                        we&apos;ll chat.
                     </p>
 
                     <div className="mt-5">
