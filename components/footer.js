@@ -1,4 +1,3 @@
-import Container from "@/components/container";
 import Newsletter from "@/components/Newsletter/Newsletter_Footer";
 import Image from "next/image";
 import Link from "next/link";
