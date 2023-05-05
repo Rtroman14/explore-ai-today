@@ -16,7 +16,9 @@ import {
     fetchFeaturedPosts,
     mostRecentPosts,
     moreRecentPosts,
-    numPosts
+    numPosts,
+    sitemapPost,
+    sitemapAuthor
 } from "./groq";
 import { createClient } from "next-sanity";
 
@@ -121,6 +123,21 @@ export async function getAllAuthors() {
         return (await client.fetch(allauthorsquery)) || [];
     }
     return [];
+}
+
+// Sitemap
+export async function getAuthorSitemap() {
+    if (client) {
+        return (await client.fetch(sitemapAuthor)) || [];
+    }
+    return {};
+}
+
+export async function getPostSitemap() {
+    if (client) {
+        return (await client.fetch(sitemapPost)) || [];
+    }
+    return {};
 }
 
 // Category

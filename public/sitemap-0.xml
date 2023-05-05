@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://www.exploreaitoday.com/about</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/archive</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/contact</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/search</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/favicon.ico</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/the-importance-of-potential-self-awareness-in-lambda-chatbots</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/boost-office-productivity-with-microsoft-copilot-ai-assistant</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/embracing-the-financial-ai-revolution-unveiling-bloomberggpt</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/revolutionizing-the-financial-sector-with-advanced-language-models</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/how-to-use-chatgpt-api-with-python</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/alpaca-ai-unveils-chatgpt-clone-a-futuristic-affordable-language-model-for-the-masses</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/transforming-image-segmentation-with-sam</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/how-to-use-chatgpt-api-with-node-js</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/github-copilot-x-unlocking-the-future-of-ai-driven-software-development</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/alibaba-tongyi-qianwen-challenges-ai-language-model-giants</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/the-rise-and-importance-of-domain-specific-language-models-in-the-finance-industry</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/midjourney-5-the-next-leap-in-ai-generated-art</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.exploreaitoday.com/post/experts-elon-musk-call-for-ai-experiment-pause</loc><lastmod>2023-05-04T03:38:32.293Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.exploreaitoday.com/about</loc><lastmod>2023-05-05T02:22:44.713Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.exploreaitoday.com/archive</loc><lastmod>2023-05-05T02:22:44.713Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.exploreaitoday.com/contact</loc><lastmod>2023-05-05T02:22:44.713Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.exploreaitoday.com</loc><lastmod>2023-05-05T02:22:44.713Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.exploreaitoday.com/search</loc><lastmod>2023-05-05T02:22:44.713Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.exploreaitoday.com/favicon.ico</loc><lastmod>2023-05-05T02:22:44.713Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

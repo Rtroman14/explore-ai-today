@@ -7,3 +7,4 @@ Host: https://www.exploreaitoday.com
 
 # Sitemaps
 Sitemap: https://www.exploreaitoday.com/sitemap.xml
+Sitemap: https://www.exploreaitoday.com/server-sitemap.xml
