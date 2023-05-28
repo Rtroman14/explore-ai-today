@@ -29,7 +29,7 @@ export default function PostList({
                 )}>
                 <div
                     className={cx(
-                        " overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105   dark:bg-gray-800"
+                        " overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800"
                     )}>
                     <Link
                         className={cx(

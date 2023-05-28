@@ -18,7 +18,13 @@ import {
     moreRecentPosts,
     numPosts,
     sitemapPost,
-    sitemapAuthor
+    sitemapAuthor,
+    toolquery,
+    toolCategoryQuery,
+    numTools,
+    fetchMoreTools,
+    fetchSomeTools,
+    filterToolsByCategories
 } from "./groq";
 import { createClient } from "next-sanity";
 
@@ -170,6 +176,57 @@ export async function getPaginatedPosts(limit) {
             (await client.fetch(paginatedquery, {
                 pageIndex: 0,
                 limit: limit
+            })) || {}
+        );
+    }
+    return {};
+}
+
+// * tools
+export async function getAllTools() {
+    if (client) {
+        return (await client.fetch(toolquery)) || [];
+    }
+    return [];
+}
+export async function getAllToolCategories() {
+    if (client) {
+        return (await client.fetch(toolCategoryQuery)) || [];
+    }
+    return [];
+}
+
+export async function getNumTools() {
+    if (client) {
+        return (await client.fetch(numTools)) || [];
+    }
+    return [];
+}
+
+export async function getSomeTools() {
+    if (client) {
+        return (await client.fetch(fetchSomeTools)) || [];
+    }
+    return [];
+}
+
+export async function getMoreTools(lastCreatedAt, lastID) {
+    if (client) {
+        return (
+            (await client.fetch(fetchMoreTools, {
+                lastCreatedAt,
+                lastID
+            })) || []
+        );
+    }
+    return [];
+}
+
+export async function getToolsByCategories(categories) {
+    if (client) {
+        return (
+            (await client.fetch(filterToolsByCategories, {
+                categories
             })) || {}
         );
     }

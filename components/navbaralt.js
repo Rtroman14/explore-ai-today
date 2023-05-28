@@ -30,6 +30,10 @@ export default function NavbarAlt(props) {
             ]
         },
         {
+            label: "Tools",
+            href: "/tools"
+        },
+        {
             label: "About",
             href: "/about"
         },
