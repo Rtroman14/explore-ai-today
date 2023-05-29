@@ -20,8 +20,7 @@ export default function RootLayout({ children }) {
         <html
             lang="en"
             suppressHydrationWarning
-            className={`${montserrat.variable} ${oxanium.variable}`}>
-            {/* className={cx(montserrat.variable, oxanium.variable)}> */}
+            className={cx(montserrat.variable, oxanium.variable)}>
             <Script
                 src="https://www.googletagmanager.com/gtag/js?id=G-VTZ9P3XX5C"
                 strategy="afterInteractive"

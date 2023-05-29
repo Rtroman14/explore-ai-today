@@ -16,8 +16,8 @@ module.exports = {
             },
             fontFamily: {
                 sans: ["var(--body-font)"],
-                display: "var(--display-font)",
-                body: "var(--body-font)"
+                display: ["var(--display-font)"],
+                body: ["var(--body-font)"]
             },
             aspectRatio: {
                 "4/3": "4 / 3",
@@ -31,7 +31,7 @@ module.exports = {
         extend: {}
     },
     plugins: [
-        require("@tailwindcss/typography"),
-        require("flowbite/plugin")
+        require("@tailwindcss/typography")
+        // require("flowbite/plugin")
     ]
 };
