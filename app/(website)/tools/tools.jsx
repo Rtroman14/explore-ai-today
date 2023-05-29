@@ -47,7 +47,6 @@ export default function Tools({
     };
 
     useEffect(() => {
-        console.log("useEffect");
         setLoading(true);
         // declare the data fetching function
         const fetchToolsByCategories = async categories => {
@@ -66,7 +65,6 @@ export default function Tools({
         if (categories.length) {
             console.log("categories.length");
 
-            // call the function
             fetchToolsByCategories(categories)
                 .then(toolsByCategories =>
                     setTools(toolsByCategories)
@@ -93,7 +91,7 @@ export default function Tools({
                 </p>
             </div>
 
-            <div className=" w-full">
+            <div className="w-full">
                 {toolCategories.map(category => (
                     <div
                         key={category.title}
@@ -113,7 +111,7 @@ export default function Tools({
                 ))}
             </div>
 
-            {numTools !== tools.length && (
+            {numTools !== tools.length && !categories.length && (
                 <div className="flex justify-center py-3">
                     <LoadingButton
                         title="Load More"

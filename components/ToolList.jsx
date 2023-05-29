@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { urlForImage } from "@/lib/sanity/image";
 import { PhotoIcon } from "@heroicons/react/24/outline";
-// import { Tooltip } from "flowbite-react";
 
 export default function ToolList({ tool }) {
     const imageProps = tool?.image ? urlForImage(tool.image) : null;
@@ -12,7 +11,7 @@ export default function ToolList({ tool }) {
             <Link
                 className="relative block aspect-[6/4]"
                 // href={`/tools/${tool.slug.current}`}>
-                href="#">
+                href="/tools#">
                 {imageProps ? (
                     <Image
                         src={imageProps.src}
