@@ -2,17 +2,16 @@ import Script from "next/script";
 import "@/styles/tailwind.css";
 import { Providers } from "./providers";
 import { Analytics } from "@vercel/analytics/react";
-import { cx } from "@/utils/all";
 import { Montserrat, Oxanium } from "next/font/google";
 
 const montserrat = Montserrat({
     subsets: ["latin"],
-    variable: "--body-font"
+    variable: "--font-montserrat"
 });
 
 const oxanium = Oxanium({
     subsets: ["latin"],
-    variable: "--display-font"
+    variable: "--font-oxanium"
 });
 
 export default function RootLayout({ children }) {
@@ -20,7 +19,7 @@ export default function RootLayout({ children }) {
         <html
             lang="en"
             suppressHydrationWarning
-            className={cx(montserrat.variable, oxanium.variable)}>
+            className={`${montserrat.variable} ${oxanium.variable}`}>
             <Script
                 src="https://www.googletagmanager.com/gtag/js?id=G-VTZ9P3XX5C"
                 strategy="afterInteractive"

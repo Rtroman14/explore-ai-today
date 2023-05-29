@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: var(--font-montserrat);
 }
 
 h1,
@@ -20,5 +20,5 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: var(--display-font);
+    font-family: var(--font-oxanium);
 }

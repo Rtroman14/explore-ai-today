@@ -15,9 +15,9 @@ module.exports = {
                 gray: colors.neutral
             },
             fontFamily: {
-                sans: ["var(--body-font)"],
-                display: ["var(--display-font)"],
-                body: ["var(--body-font)"]
+                sans: ["var(--font-montserrat)"],
+                display: ["var(--font-oxanium)"],
+                body: ["var(--font-montserrat)"]
             },
             aspectRatio: {
                 "4/3": "4 / 3",
