@@ -26,7 +26,7 @@ export default function ToolList({ tool }) {
                     </span>
                 )}
             </Link>
-            <div className="p-3">
+            <div className="p-3 pb-10 md:pb-3">
                 <div>
                     <div>
                         {tool.categories.map(category => (
@@ -39,11 +39,16 @@ export default function ToolList({ tool }) {
                     </div>
                     <div>
                         {/* <Link href={`/tools/${tool.slug.current}`}> */}
-                        <Link href="#">
+                        {/* <Link href="#"> */}
+                        <a
+                            href={tool.website}
+                            target="_blank"
+                            rel="noopener noreferrer">
                             <h5 className="my-2 text-2xl font-bold tracking-tight text-gray-900 transition duration-200 hover:text-blue-500 dark:text-white hover:dark:text-blue-500">
                                 {tool.title}
                             </h5>
-                        </Link>
+                        </a>
+                        {/* </Link> */}
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             {tool.description.length > 110
                                 ? `${tool.description.slice(
